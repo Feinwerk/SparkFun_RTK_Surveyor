@@ -266,8 +266,8 @@ bool startFixedBase()
 //    Serial.printf("minor (should be 84): %ld\n", minorAlt);
 
     response = myGPS.setStaticPosition(
-                 majorLong, minorLong,
                  majorLat, minorLat,
+                 majorLong, minorLong,
                  majorAlt, minorAlt,
                  true);
   }
